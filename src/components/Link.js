@@ -7,6 +7,7 @@ export default function Link({ to, children }) {
   const classes = classNames('text-blue-400')
 
   const handleClick = (e) => {
+    console.log('handleClick')
     if (e.metaKey || e.ctrlKey) {
       return
     }
